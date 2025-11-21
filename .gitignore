@@ -1,0 +1,31 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Archivos temporales
+*.log
+*.tmp
+tmp_norm1.cpp
+tmp_norm2.cpp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de prueba (opcional, descomenta si no quieres subirlos)
+# archivo1.txt
+# archivo2.txt
