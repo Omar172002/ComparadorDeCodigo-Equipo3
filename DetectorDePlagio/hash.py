@@ -22,7 +22,7 @@ def subtree_hashes(node) -> set:
 if __name__ == "__main__":
     from Ast import get_ast_root
 
-    file_path = "archivo1.txt"
+    file_path = "archivo_1.txt"
     root, _ = get_ast_root(file_path)
     hashes = subtree_hashes(root)
 

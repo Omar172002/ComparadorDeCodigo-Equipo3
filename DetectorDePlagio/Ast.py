@@ -50,7 +50,7 @@ def get_ast_root(file_path: str):
 
 # --- Ejecución directa ---
 if __name__ == "__main__":
-    file_path = "archivo2.txt"
+    file_path = "archivo_2.txt"
     root, code = get_ast_root(file_path)
     print(f"\n=== AST ({DEFAULT_LANG}) con valores ===\n")
     print_tree_with_lexemes(root, code)

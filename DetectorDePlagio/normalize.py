@@ -53,7 +53,7 @@ def normalize_variables(code: str) -> str:
 
 # Ejemplo de uso
 if __name__ == "__main__":
-    archivo = "archivo1.txt"
+    archivo = "archivo_1.txt"
     with open(archivo, "r", encoding="utf-8") as f:
         original = f.read()
 
@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
 # Ejemplo de uso
 if __name__ == "__main__":
-    archivo = "archivo1.txt"
+    archivo = "archivo_1.txt"
     with open(archivo, "r", encoding="utf-8") as f:
         original = f.read()
 

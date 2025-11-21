@@ -1,0 +1,33 @@
+======================================================================
+🔍 ANÁLISIS DE SIMILITUD DE CÓDIGO
+📅 Fecha: 2025-11-05 19:36:32
+📄 Archivo 1: /Users/hayabusa/Documents/Desarrollo de aplicaciones avanzadas de ciencias computacionales/Detector de palgio/ComparadorDeCodigo/DetectorDePlagio/archivo_1.txt
+📄 Archivo 2: /Users/hayabusa/Documents/Desarrollo de aplicaciones avanzadas de ciencias computacionales/Detector de palgio/ComparadorDeCodigo/DetectorDePlagio/archivo_2.txt
+======================================================================
+
+🧩 ETAPA 1: NORMALIZACIÓN DE CÓDIGO
+--------------------------------------------------
+
+✅ Normalización completada:
+• archivo_1.txt: 249 palabras → 227 después de normalizar
+• archivo_2.txt: 268 palabras → 227 después de normalizar
+
+🌳 ETAPA 2: ÁRBOLES SINTÁCTICOS (AST)
+--------------------------------------------------
+
+✅ Árboles sintácticos generados:
+• archivo_1.txt: AST construido correctamente
+• archivo_2.txt: AST construido correctamente
+
+🔑 ETAPA 3: HASHES DE SUBÁRBOLES
+--------------------------------------------------
+
+📊 Estadísticas de hashes:
+• archivo_1.txt: 103 subárboles únicos
+• archivo_2.txt: 103 subárboles únicos
+• Subárboles en común: 103
+
+📊 ETAPA 4: COMPARACIÓN DE SIMILITUD
+--------------------------------------------------
+🎯 Similitud estructural (Jaccard): 1.0000
+
