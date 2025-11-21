@@ -1,5 +1,14 @@
-packaging==25.0
-setuptools==80.9.0
-tree-sitter==0.21.3
-tree-sitter-languages==1.10.2
-wheel==0.45.1
+# Crear requirements más específico
+cat > requirements.txt << 'EOF'
+streamlit==1.36.0
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+nltk==3.8.1
+matplotlib==3.9.2
+plotly==5.21.0
+python-dotenv==1.0.1
+typing-extensions==4.13.2
+python-dateutil==2.9.0
+Pillow==10.4.0
+EOF
